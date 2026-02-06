@@ -1,0 +1,4 @@
+all:
+	gcc log_generator.c -o loggen
+	.\loggen
+	python log_analyzer.py system.log
